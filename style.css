@@ -1,0 +1,30 @@
+.iamge-privew--uplode-file{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+h1{
+    color: brown;
+}
+input{
+    background-color: #335214;
+    font-size: large;
+    color: white;
+}
+.image-privew{
+    
+    width: 30rem;
+    min-height: 10rem;
+    border: 1px solid black;
+    margin-top: 1.2rem;
+
+    /* Defeult text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#cccccc;
+    font-weight: bold;
+}
+.image-privew-image{
+    display: none;
+    width: 100%;
+}
