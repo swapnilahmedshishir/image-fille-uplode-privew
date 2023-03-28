@@ -1,18 +1,22 @@
-.iamge-privew--uplode-file{
-   max-width: 1140px;
-   margin: 0 auto;
+.iamge-privew--uplode-file {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-h1{
+
+h1 {
     color: brown;
+    margin-bottom: 30px;
 }
-input{
+
+input {
     background-color: #335214;
     font-size: large;
     color: white;
 }
-.image-privew{
-    
-    width: 30rem;
+
+.image-privew {
+
+    width: 35rem;
     min-height: 10rem;
     border: 1px solid black;
     margin-top: 1.2rem;
@@ -21,10 +25,48 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#cccccc;
+    color: #cccccc;
     font-weight: bold;
 }
-.image-privew-image{
+
+.image-privew-image {
     display: none;
     width: 100%;
+}
+
+h3 {
+    margin-top: 4rem;
+    color: #335214;
+}
+
+h3 span {
+    color: rgb(160, 12, 12);
+}
+
+.box_style {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 540px;
+    border-width: 3px !important;
+    border-style: dotted;
+    border-color: lightgrey;
+    border-radius: 15px;
+    background-color: #eef1f7;
+    margin-top: 20px;
+
+}
+
+.box_style h6 {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+@media (max-width:768px) {
+    .image-privew {
+        width: auto;
+    }
+
 }
